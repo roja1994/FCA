@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32344" started-at="2020-01-31T13:03:15Z" finished-at="2020-01-31T13:03:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32344" started-at="2020-01-31T13:03:15Z" finished-at="2020-01-31T13:03:47Z">
+      <class name="compare.CompareAmazonAndFlipkart">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:compare.CompareAmazonAndFlipkart@675d3402]" name="openBrowser" is-config="true" duration-ms="7532" started-at="2020-01-31T18:33:15Z" finished-at="2020-01-31T18:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="compareTest()[pri:0, instance:compare.CompareAmazonAndFlipkart@675d3402]" name="compareTest" duration-ms="24785" started-at="2020-01-31T18:33:22Z" finished-at="2020-01-31T18:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTest -->
+      </class> <!-- compare.CompareAmazonAndFlipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
