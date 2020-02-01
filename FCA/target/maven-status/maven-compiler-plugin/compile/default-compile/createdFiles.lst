@@ -1,0 +1,10 @@
+com\fca\pages\amazon\ProductHomePage.class
+com\fca\pages\amazon\ProductPage.class
+com\fca\pages\flipkart\FlipkartProductPage.class
+com\fca\pages\amazon\ProductListPage.class
+com\fca\pages\flipkart\FlipkartProductListPage.class
+com\fca\genericlib\BaseTest.class
+com\fca\genericlib\IAutoConstant.class
+com\fca\genericlib\WebDriverLib.class
+com\fca\genericlib\FileLibUtils.class
+com\fca\pages\flipkart\FlipkartProductHomePage.class
