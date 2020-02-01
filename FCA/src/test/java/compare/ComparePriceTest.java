@@ -14,7 +14,7 @@ import com.fca.pages.flipkart.FlipkartProductHomePage;
 import com.fca.pages.flipkart.FlipkartProductListPage;
 import com.fca.pages.flipkart.FlipkartProductPage;
 
-public class ComparePrice extends BaseTest{
+public class ComparePriceTest extends BaseTest{
 	FileLibUtils flu = new FileLibUtils();
 	@Test
 	

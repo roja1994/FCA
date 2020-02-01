@@ -2,38 +2,36 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="503391" started-at="2020-02-01T11:08:15Z" finished-at="2020-02-01T11:16:38Z">
+  <suite name="Suite" duration-ms="184601" started-at="2020-02-01T11:23:11Z" finished-at="2020-02-01T11:26:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="503391" started-at="2020-02-01T11:08:15Z" finished-at="2020-02-01T11:16:38Z">
+    <test name="Test" duration-ms="184601" started-at="2020-02-01T11:23:11Z" finished-at="2020-02-01T11:26:15Z">
       <class name="compare.ComparePrice">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:compare.ComparePrice@51565ec2]" name="openBrowser" is-config="true" duration-ms="5976" started-at="2020-02-01T16:38:15Z" finished-at="2020-02-01T16:38:21Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:compare.ComparePrice@7823a2f9]" name="openBrowser" is-config="true" duration-ms="7602" started-at="2020-02-01T16:53:11Z" finished-at="2020-02-01T16:53:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="comparePriceTest()[pri:0, instance:compare.ComparePrice@51565ec2]" name="comparePriceTest" duration-ms="495341" started-at="2020-02-01T16:38:21Z" finished-at="2020-02-01T16:46:36Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="FAIL" signature="comparePriceTest()[pri:0, instance:compare.ComparePrice@7823a2f9]" name="comparePriceTest" duration-ms="176666" started-at="2020-02-01T16:53:18Z" finished-at="2020-02-01T16:56:15Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[chrome not reachable
   (Session info: chrome=79.0.3945.130)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROOJA-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9e002d9b0ed060718a092629d00bc0dd
-*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _29YdH8']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d06133b6553ed6b4859266fd0729d71
+*** Element info: {Using=id, value=twotabsearchtextbox}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=79.0.3945.130)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROOJA-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9e002d9b0ed060718a092629d00bc0dd
-*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _29YdH8']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d06133b6553ed6b4859266fd0729d71
+*** Element info: {Using=id, value=twotabsearchtextbox}
 	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -44,14 +42,14 @@ Session ID: 9e002d9b0ed060718a092629d00bc0dd
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.fca.pages.flipkart.FlipkartProductHomePage.enterProductName(FlipkartProductHomePage.java:29)
-	at compare.ComparePrice.comparePriceTest(ComparePrice.java:39)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.fca.pages.amazon.ProductHomePage.enterProductName(ProductHomePage.java:31)
+	at compare.ComparePrice.comparePriceTest(ComparePrice.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,11 +77,11 @@ Session ID: 9e002d9b0ed060718a092629d00bc0dd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- comparePriceTest -->
-        <test-method status="FAIL" signature="closeApplication()[pri:0, instance:compare.ComparePrice@51565ec2]" name="closeApplication" is-config="true" duration-ms="0" started-at="2020-02-01T16:46:36Z" finished-at="2020-02-01T16:46:36Z">
+        <test-method status="FAIL" signature="closeApplication()[pri:0, instance:compare.ComparePrice@7823a2f9]" name="closeApplication" is-config="true" duration-ms="0" started-at="2020-02-01T16:56:15Z" finished-at="2020-02-01T16:56:15Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -91,8 +89,8 @@ Session ID: 9e002d9b0ed060718a092629d00bc0dd
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROOJA-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9e002d9b0ed060718a092629d00bc0dd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d06133b6553ed6b4859266fd0729d71]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -100,10 +98,9 @@ Session ID: 9e002d9b0ed060718a092629d00bc0dd]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROOJA-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9e002d9b0ed060718a092629d00bc0dd
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Rooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d06133b6553ed6b4859266fd0729d71
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
