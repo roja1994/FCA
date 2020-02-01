@@ -32,16 +32,9 @@ public class BaseTest implements IAutoConstant{
 		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
 		//driver.get("https://www.google.com");
 	}
-//	@Parameters({"url"})
-//	@BeforeMethod(groups = {"SmokeTesting","regTesting"})
-//	public void launchURL(String url) throws IOException, InterruptedException {
-//	}
-//	@AfterMethod(groups = {"SmokeTesting","regTesting"})
-//	public void testSignOut(){
-//
-//	}
-//	@AfterClass(groups = {"SmokeTesting","regTesting"})
-//	public void closeApplication() {
-//		driver.close();
-//	}
+
+    @AfterClass
+	public void closeApplication() {
+		driver.close();
+	}
 }

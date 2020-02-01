@@ -62,16 +62,17 @@ public class WebDriverLib implements IAutoConstant{
 	public static String parentWindowID;
 	public static String childWindowID;
 
+	Set<String> wh;
 	public void switchToChildWindow(WebDriver driver) {
-		Set<String> wh = driver.getWindowHandles();
+		wh = driver.getWindowHandles();
 		Iterator<String> ite = wh.iterator();
 		parentWindowID = ite.next();
 		childWindowID = ite.next();
 		
 		driver.switchTo().window(childWindowID);
  	}
-
 	public void switchToParentWindow(WebDriver driver) {
+		driver.switchTo().window(childWindowID).close();
 		driver.switchTo().window(parentWindowID);
 	}
 	
@@ -84,6 +85,22 @@ public class WebDriverLib implements IAutoConstant{
 	public void moveToElement(WebDriver driver, WebElement element) {
 		Actions act=new Actions(driver);
 		act.moveToElement(element).perform();
+	}
+	
+	public Integer convertStringToInteger(String str) {
+		String str2="";
+		for(int i=0; i<str.length(); i++) {
+			if(str.charAt(i)>='0' && str.charAt(i)<='9')
+				str2=str2+str.charAt(i);
+			else if(str.charAt(i)>='a' && str.charAt(i)<='z' || str.charAt(i)>='A' && str.charAt(i)<='Z' )
+				continue;
+			else if(str.charAt(i)=='.')
+				break;
+			else
+				continue;
+		}
+		Integer it=Integer.parseInt(str2);
+		return it;
 	}
 	
 }

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="compare.CompareAmazonAndFlipkart">
+      <class name="compare.ComparePrice">
         <methods>
           <include name="openBrowser"/>
-          <include name="compareTest"/>
+          <include name="comparePriceTest"/>
         </methods>
-      </class> <!-- compare.CompareAmazonAndFlipkart -->
+      </class> <!-- compare.ComparePrice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
